@@ -142,7 +142,7 @@ def send_admin_notification_email(user):
         <p><strong>Mobile:</strong> {user.get('mobile_number', 'N/A')}</p>
         <br />
         <p>
-          🔀 <a href=\"http://localhost:3000/admin-login\" target=\"_blank\">
+          🔀 <a href=\"https://scissorsproperties.com/admin-login\" target=\"_blank\">
           Click here to approve or decline
           </a>
         </p>
