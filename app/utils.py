@@ -158,7 +158,7 @@ def send_admin_notification_email(user):
     Mobile: {user.get('mobile_number', 'N/A')}
 
     Click to approve or decline:
-    http://localhost:3000/admin-login
+    https://scissorsproperties.com/admin-login
     """
 
     msg = Message(subject, recipients=["santhana7999@gmail.com"], body=plain_body)
